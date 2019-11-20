@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/harttrans"
+    android:orientation="vertical">
+
+
+
+    <ImageButton
+        android:id="@+id/arc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="200dp"
+        android:adjustViewBounds="true"
+        android:background="#0000"
+        android:maxWidth="50dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/arc"></ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="205dp"
+        android:layout_marginLeft="205dp"
+        android:layout_marginTop="250dp"
+        android:fontFamily="@font/futura"
+        android:text="@string/triumphal_arch"
+        android:textSize="13sp">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/presei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="180dp"
+        android:adjustViewBounds="true"
+        android:background="#0000"
+        android:maxWidth="60dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/presei">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="240dp"
+        android:fontFamily="@font/futura"
+        android:text="@string/press_house"
+        android:textSize="13sp">
+
+    </TextView>
+
+
+    <ImageButton
+        android:id="@+id/ateneu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="275dp"
+        android:adjustViewBounds="true"
+        android:background="#0000"
+        android:maxWidth="60dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ateneu">
+
+
+    </ImageButton>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="235dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="325dp"
+        android:fontFamily="@font/futura"
+        android:text="@string/athenaeum"
+        android:textSize="13sp">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/cec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        android:adjustViewBounds="true"
+        android:background="#0000"
+        android:maxWidth="70dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/cec">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:fontFamily="@font/futura"
+        android:text="@string/cec_building"
+        android:textSize="13sp">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/muzeu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="310dp"
+        android:adjustViewBounds="true"
+        android:background="#0000"
+        android:maxWidth="70dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/muzeu">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="370dp"
+        android:fontFamily="@font/futura"
+        android:text="@string/national_museum"
+        android:textSize="13sp">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/centru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="390dp"
+        android:adjustViewBounds="true"
+        android:background="#0000"
+        android:maxWidth="50dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/centru">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="195dp"
+        android:layout_marginLeft="235dp"
+        android:layout_marginTop="445dp"
+        android:fontFamily="@font/futura"
+        android:text="@string/old_town"
+        android:textSize="13sp">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/parlament"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="370dp"
+        android:adjustViewBounds="true"
+        android:background="#0000"
+        android:maxWidth="70dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/palament">
+
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="440dp"
+        android:fontFamily="@font/futura"
+        android:text="@string/parliament"
+        android:textSize="13sp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/futura"
+        android:text="@string/b_u_c_u_r_e_s_t_i"
+        android:textAlignment="center"
+        android:textColor="@color/culoareButon"
+        android:textSize="30sp"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/futura"
+        android:text="@string/r_o_m_a_n_i_a"
+        android:textAlignment="center"
+        android:textColor="@color/culoareButon"
+        android:textSize="15sp">
+
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="TextAppearance.AppCompat.Widget.Actionbar.Title" parent="@android:style/TextAppearance">
+
+        <item name="android:textColor">@color/culoareScris</item>
+        <item name="android:fontFamily">@font/lato</item>
+    </style>
+
+    <style name="buton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:fontFamily">@font/futura</item>
+        <item name="android:textColor">@color/culoareScris</item>
+        <item name="android:background">@drawable/buttonshape</item>
+        <item name="android:textSize">17sp</item>
+
+
+    </style>
+
+    <style name="submenu">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:background">#0000</item>
+        <item name="android:maxWidth">70dp</item>
+        <item name="android:layout_marginLeft">30dp</item>
+
+
+    </style>
+
+</resources>

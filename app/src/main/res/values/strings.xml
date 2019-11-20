@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Bucharest Tips</string>
+    <string name="attraction">Attractions</string>
+    <string name="a_l_t_e_r_n_a_t_i_v_e">A L T E R N A T I V E</string>
+    <string name="c_l_a_s_s_i_c">C L A S S I C</string>
+    <string name="attractions">Attractions</string>
+    <string name="transportation">Transportation</string>
+    <string name="food_and_drink">Food and Drink</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="triumphal_arch">TRIUMPHAL ARCH</string>
+    <string name="press_house">PRESS HOUSE</string>
+    <string name="athenaeum">ATHENAEUM</string>
+    <string name="cec_building">CEC BUILDING</string>
+    <string name="national_museum">NATIONAL MUSEUM</string>
+    <string name="old_town">OLD TOWN</string>
+    <string name="parliament">PARLIAMENT</string>
+    <string name="b_u_c_u_r_e_s_t_i">B U C U R E S T I</string>
+    <string name="r_o_m_a_n_i_a">-R O M A N I A-</string>
+</resources>

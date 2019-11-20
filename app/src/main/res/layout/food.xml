@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/caru"
+            style="@style/submenu"
+            android:src="@drawable/caru"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/hanu"
+            style="@style/submenu"
+            android:src="@drawable/hanu"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/vivo"
+            style="@style/submenu"
+            android:src="@drawable/vivo"></ImageButton>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:fontFamily="@font/futura"
+        android:text="B E S T   V I E W "
+        android:textSize="15sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/res18"
+            style="@style/submenu"
+            android:src="@drawable/res18"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/cismigiu"
+            style="@style/submenu"
+            android:src="@drawable/cismigiu"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/nor"
+            style="@style/submenu"
+            android:src="@drawable/nor"></ImageButton>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/futura"
+        android:text="O U R    R E C O M M E N D A T I O N "
+        android:textSize="15sp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/futura"
+        android:text="B E S T    B U Y "
+        android:textSize="15sp">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+
+
+        <ImageButton
+            android:id="@+id/bucataras"
+            style="@style/submenu"
+            android:src="@drawable/bucataras"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/ciorbarie"
+            style="@style/submenu"
+            android:src="@drawable/ciorba">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/pizza"
+            style="@style/submenu"
+            android:src="@drawable/pizza">
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

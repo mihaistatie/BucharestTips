@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+
+
+        <ImageButton
+            android:id="@+id/metrou"
+            style="@style/submenu"
+            android:src="@drawable/metro"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/tur"
+            style="@style/submenu"
+            android:src="@drawable/city"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/tren"
+            style="@style/submenu"
+            android:maxWidth="57dp"
+            android:src="@drawable/train"></ImageButton>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:fontFamily="@font/futura"
+        android:text="@string/a_l_t_e_r_n_a_t_i_v_e"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/uber"
+            style="@style/submenu"
+            android:src="@drawable/uber"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/bolt"
+            style="@style/submenu"
+            android:src="@drawable/bolt"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/yango"
+            style="@style/submenu"
+            android:src="@drawable/yango"></ImageButton>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/futura"
+        android:text="@string/c_l_a_s_s_i_c"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/cab"
+            style="@style/submenu"
+            android:src="@drawable/blackcab"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/lime"
+            style="@style/submenu"
+            android:src="@drawable/lime">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/vespa"
+            style="@style/submenu"
+            android:src="@drawable/vespa">
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

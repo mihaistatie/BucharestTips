@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/spa"
+            style="@style/submenu"
+            android:src="@drawable/therme"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/comunist"
+            style="@style/submenu"
+            android:src="@drawable/red"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/muzeu"
+            style="@style/submenu"
+            android:src="@drawable/antipa"></ImageButton>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:fontFamily="@font/futura"
+        android:text="S H O P P I N G "
+        android:textSize="15sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/suvenir"
+            style="@style/submenu"
+            android:src="@drawable/boutique"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/mall"
+            style="@style/submenu"
+            android:src="@drawable/afi"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/carte"
+            style="@style/submenu"
+            android:src="@drawable/carturesti"></ImageButton>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/futura"
+        android:text="O U R    R E C O M M E N D A T I O N "
+        android:textSize="15sp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/futura"
+        android:text="C H I L L   AND  R E L A X "
+        android:textSize="15sp">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+
+
+        <ImageButton
+            android:id="@+id/ateneu"
+            style="@style/submenu"
+            android:src="@drawable/muzica"></ImageButton>
+
+
+        <ImageButton
+            android:id="@+id/opera"
+            style="@style/submenu"
+            android:src="@drawable/opera">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/cafe"
+            style="@style/submenu"
+            android:src="@drawable/senaca">
+
+        </ImageButton>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
